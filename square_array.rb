@@ -6,4 +6,5 @@ def square_array(numbers)
     numbers << z
     numbers.delete(x)
   end
+  sqnumbers
 end
