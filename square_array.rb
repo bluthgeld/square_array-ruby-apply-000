@@ -1,7 +1,8 @@
 def square_array(numbers)
   numbers.each do |x| 
-    x = x*
-    numbers.push(x)
+    z = x*x
+    numbers.push(z)
+    
   end
 end
 
