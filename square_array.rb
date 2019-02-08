@@ -1,9 +1,9 @@
+numbers = [1,2,3]
+
 def square_array(numbers)
   numbers.each do |x| 
     z = x**2
-    numbers.push(z)
+    numbers << x
     numbers.delete(x)
   end
 end
-
-numbers = [1,2,3]
