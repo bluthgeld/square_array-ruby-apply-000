@@ -5,4 +5,5 @@ def square_array(numbers)
     z = x ** 2
     numbers << z
     numbers.delete(x)
+  end
 end
