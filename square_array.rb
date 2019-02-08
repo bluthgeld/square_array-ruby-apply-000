@@ -2,7 +2,7 @@ def square_array(numbers)
   numbers.each do |x| 
     z = x*x
     numbers.push(z)
-    
+    numbers.delete(x)
   end
 end
 
